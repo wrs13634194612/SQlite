@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@android:drawable/btn_default_small"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/iv_grade_item"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Id编号:"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/item_id_grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_red_dark" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="学号:"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/item_number_grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_red_dark" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="班级:"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/item_grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_red_dark" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="高考成绩:"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/item_score_grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_red_dark" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="学费:"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/item_price_grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_red_dark" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
